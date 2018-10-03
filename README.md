@@ -1,4 +1,5 @@
-#### wahlfeld.co
-I want this to be a really simple static website with things like my name, where I work and some social media links. Something similar to this [site](http://www.laurenicolesmith.com/) but obviously less girly. Source code is below:
+## [wahlfeld.co](https://wahlfeld.co)
 
-https://github.com/smithln/smithln.github.io
+⋅⋅⋅Created using [Hugo](https://gohugo.io/getting-started/quick-start/)
+⋅⋅⋅Theme is [Coder](https://themes.gohugo.io/hugo-coder/)
+⋅⋅⋅Hosted on [aws](https://aws.amazon.com/resources/create-account/) S3 and CloudFront
