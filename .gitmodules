@@ -1,0 +1,6 @@
+[submodule "dev-wahlfeld.co/themes/aerial"]
+	path = dev-wahlfeld.co/themes/aerial
+	url = https://github.com/sethmacleod/aerial.git
+[submodule "dev-simonbird/themes/aerial"]
+	path = dev-simonbird/themes/aerial
+	url = https://github.com/sethmacleod/aerial.git
