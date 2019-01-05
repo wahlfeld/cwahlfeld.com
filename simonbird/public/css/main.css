@@ -186,25 +186,30 @@
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #348cb2 url("images/bg.jpg") bottom left;
+		/* background: #348cb2 url("images/bg.jpg") bottom left;
 		background-repeat: repeat-x;
-		/* background: #348cb2 url("images/bg.jpg"); */
-		/* background-repeat: no-repeat;		 */
-		background-size: contain;
-		background-position: center;
 		height: 100%;
 		left: 0;
 		opacity: 1;
 		position: fixed;
-		top: 0;
+		top: 0; */
+
+		background: #348cb2 url("images/bg.jpg");
+		background-repeat: no-repeat;
+		height: 100%;
+		background-size: cover;
+		background-position: bottom center;
+		background-attachment: fixed;
+		width: 100%;
+
 	}
   .no-scroll {
-    -moz-animation: none !important;
-    -webkit-animation: none !important;
-    -ms-animation: none !important;
-    animation: none !important;
+	-moz-animation: none !important;
+	-webkit-animation: none !important;
+	-ms-animation: none !important;
+	animation: none !important;
   }
-	@-moz-keyframes bg {
+	/* @-moz-keyframes bg {
 		0% {
 			-moz-transform: translate3d(0,0,0);
 			-webkit-transform: translate3d(0,0,0);
@@ -271,7 +276,7 @@
 	#bg {
 		background-size: 2250px auto;
 		width: 6750px;
-	}
+	} */
 
 /* Overlay */
 
@@ -707,7 +712,7 @@
 
 		/* BG */
 
-			@-moz-keyframes bg {
+			/* @-moz-keyframes bg {
 				0% {
 					-moz-transform: translate3d(0,0,0);
 					-webkit-transform: translate3d(0,0,0);
@@ -775,9 +780,9 @@
 		#bg {
 			background-size: 1500px auto;
 			width: 4500px;
-		} }
+		} } */
 
-/* Normal */
+	/* Normal */
 
 	@media screen and (max-width: 1280px) {
 
@@ -789,7 +794,7 @@
 
 		/* BG */
 
-			@-moz-keyframes bg {
+			/* @-moz-keyframes bg {
 				0% {
 					-moz-transform: translate3d(0,0,0);
 					-webkit-transform: translate3d(0,0,0);
@@ -857,9 +862,9 @@
 		#bg {
 			background-size: 750px auto;
 			width: 2250px;
-		} }
+		} } */
 
-/* Mobile */
+	/* Mobile */
 
 	@media screen and (max-width: 736px) {
 
@@ -875,7 +880,7 @@
 
 		/* BG */
 
-			@-moz-keyframes bg {
+			/* @-moz-keyframes bg {
 				0% {
 					-moz-transform: translate3d(0,0,0);
 					-webkit-transform: translate3d(0,0,0);
@@ -943,7 +948,7 @@
 		#bg {
 			background-size: 300px auto;
 			width: 900px;
-		}
+		} */
 
 	/* Header */
 
@@ -967,13 +972,13 @@
 				font-size: 1em;
 			} }
 
-/* Mobile (Portrait) */
+	/* Mobile (Portrait) */
 
 	@media screen and (max-width: 480px) {
 
 		/* BG */
 
-			@-moz-keyframes bg {
+			/* @-moz-keyframes bg {
 				0% {
 					-moz-transform: translate3d(0,0,0);
 					-webkit-transform: translate3d(0,0,0);
@@ -1041,7 +1046,7 @@
 		#bg {
 			background-size: 412.5px auto;
 			width: 1237.5px;
-		}
+		} */
 
 	/* Header */
 
