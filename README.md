@@ -1,4 +1,4 @@
-## [wahlfeld.co](https://wahlfeld.co)
+## [cwahlfeld.com](https://cwahlfeld.com)
 
 Created using [Hugo](https://gohugo.io/getting-started/quick-start/)
 
